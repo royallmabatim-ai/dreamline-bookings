@@ -22,7 +22,7 @@ export function Contact() {
   };
 
   const info = [
-    { icon: Phone, title: "Phone", lines: [PHONE, "+254 700 118 240"] },
+    { icon: Phone, title: "Phone", lines: [PHONE, "Available 24/7"] },
     { icon: Mail, title: "Email", lines: ["info@dreamline.com", "support@dreamline.com"] },
     { icon: MapPin, title: "Main Office", lines: ["Nairobi CBD, Kenya", "Opposite Bus Station"] },
     { icon: Clock, title: "Working Hours", lines: ["Monday - Sunday", "24/7 Customer Support"] },
