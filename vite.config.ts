@@ -12,4 +12,13 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // The Netlify preset emits static assets to `dist/` by default while the server
+    // function goes to `.netlify/functions-internal`. netlify.toml publishes
+    // `.output/public`, so point nitro's public output there (the server output dir
+    // is left untouched so Netlify still picks up the SSR function).
+    output: {
+      publicDir: ".output/public",
+    },
+  },
 });
