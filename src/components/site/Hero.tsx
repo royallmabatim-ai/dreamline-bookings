@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import heroBus from "@/assets/hero-bus.svg";
+const heroBus = "/images/hero-bus.jpg";
 
 export function Hero() {
   const [from, setFrom] = useState("");

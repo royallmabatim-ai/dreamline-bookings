@@ -1,8 +1,8 @@
 import { Clock, Headphones, Shield, Ticket, Sofa, Wifi } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import busInterior from "@/assets/bus-interior.jpg";
-import bookingOffice from "@/assets/booking-office.jpg";
-import heroBus from "@/assets/hero-bus.jpg";
+const busInterior = "/images/bus-interior.jpg";
+const bookingOffice = "/images/booking-office.jpg";
+const heroBus = "/images/hero-bus.jpg";
 
 const items = [
   {
