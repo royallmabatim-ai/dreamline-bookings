@@ -1,4 +1,4 @@
-import busInterior from "@/assets/bus-interior.jpg";
+import busInterior from "@/assets/bus-interior.svg";
 
 const stats = [
   { value: "150+", label: "Modern Buses" },
