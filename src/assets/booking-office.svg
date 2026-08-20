@@ -1,0 +1,56 @@
+<svg width="1280" height="960" viewBox="0 0 1280 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="officeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Wall background -->
+  <rect width="1280" height="960" fill="url(#officeGradient)"/>
+  
+  <!-- Accent wall -->
+  <rect x="0" y="0" width="1280" height="150" fill="#1a472a"/>
+  
+  <!-- Dreamline branding -->
+  <text x="640" y="100" font-size="52" font-weight="bold" fill="#fff" text-anchor="middle">
+    DREAMLINE BOOKING OFFICE
+  </text>
+  
+  <!-- Counter -->
+  <rect x="150" y="350" width="1000" height="200" fill="#8b6f47" rx="10"/>
+  <rect x="150" y="350" width="1000" height="40" fill="#a0826d"/>
+  
+  <!-- Counter top surface -->
+  <rect x="160" y="360" width="980" height="180" fill="#c9b59a"/>
+  
+  <!-- Counter sections -->
+  <line x1="400" y1="350" x2="400" y2="550" stroke="#6b5437" stroke-width="3"/>
+  <line x1="640" y1="350" x2="640" y2="550" stroke="#6b5437" stroke-width="3"/>
+  <line x1="880" y1="350" x2="880" y2="550" stroke="#6b5437" stroke-width="3"/>
+  
+  <!-- Ticket displays -->
+  <rect x="200" y="200" width="250" height="100" fill="#e8d7c3" stroke="#8b6f47" stroke-width="2" rx="5"/>
+  <text x="325" y="260" font-size="28" font-weight="bold" fill="#1a472a" text-anchor="middle">TICKETS</text>
+  
+  <rect x="520" y="200" width="250" height="100" fill="#e8d7c3" stroke="#8b6f47" stroke-width="2" rx="5"/>
+  <text x="645" y="260" font-size="28" font-weight="bold" fill="#1a472a" text-anchor="middle">BOOKINGS</text>
+  
+  <rect x="840" y="200" width="250" height="100" fill="#e8d7c3" stroke="#8b6f47" stroke-width="2" rx="5"/>
+  <text x="965" y="260" font-size="28" font-weight="bold" fill="#1a472a" text-anchor="middle">SUPPORT</text>
+  
+  <!-- Information signs -->
+  <rect x="100" y="650" width="500" height="220" fill="#fff" stroke="#ddd" stroke-width="2" rx="8"/>
+  <text x="350" y="685" font-size="24" font-weight="bold" fill="#1a472a" text-anchor="middle">Operating Hours</text>
+  <text x="130" y="730" font-size="18" fill="#333">Mon - Fri: 8:00 AM - 6:00 PM</text>
+  <text x="130" y="765" font-size="18" fill="#333">Sat: 9:00 AM - 5:00 PM</text>
+  <text x="130" y="800" font-size="18" fill="#333">Sun: 10:00 AM - 4:00 PM</text>
+  <text x="130" y="835" font-size="18" fill="#333">24/7 Online Booking Available</text>
+  
+  <rect x="680" y="650" width="500" height="220" fill="#fff" stroke="#ddd" stroke-width="2" rx="8"/>
+  <text x="930" y="685" font-size="24" font-weight="bold" fill="#1a472a" text-anchor="middle">Contact Us</text>
+  <text x="700" y="730" font-size="18" fill="#333">Phone: +254 782 539202</text>
+  <text x="700" y="765" font-size="18" fill="#333">Email: info@dreamline.africa</text>
+  <text x="700" y="800" font-size="18" fill="#333">WhatsApp: Available 24/7</text>
+  <text x="700" y="835" font-size="18" fill="#333">Serving Kenya, Uganda & Tanzania</text>
+</svg>
